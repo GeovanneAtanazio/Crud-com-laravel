@@ -3,9 +3,9 @@ Criar projeto laravel:
 Criar CRUD:
 	php artisan make:command CrudGenerator
 
-ADCIONAR O DIRETÓRIO /stubs E OS ARQUIVOS CONTIDOS NELE NO DIRETÓRIO /resouces
+ADCIONAR O DIRETÃ“RIO /stub E OS ARQUIVOS CONTIDOS NELE NO DIRETÃ“RIO /resouces
 
-MUDAR O ARQUIVO CrudGenerator.php NO DIRETÓRIO app/Console/Commands
+MUDAR O ARQUIVO CrudGenerator.php NO DIRETÃ“RIO app/Console/Commands
 
 CONFIGURE O BANCO NO ARQUIVO .env
 
@@ -15,7 +15,9 @@ Criar um Controller para uma tabela:
 Cria uma migration para uma tabela:
 	php artisan make:migration create_NOME-DA-TABELA_table --create=NOME-DA-TABELA
 
-MUDAR O ARQUIVO AppServiceProvider.php NO DIRETÓRIO app/Providers
+INSERE AS COLUNAS NO METODO up DA MIGATION CRIADA
+
+MUDAR O ARQUIVO AppServiceProvider.php NO DIRETÃ“RIO app/Providers
 
 Criar a tabela no banco:
 	php artisan migrate
